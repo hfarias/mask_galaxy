@@ -4,9 +4,26 @@ The classification of galaxies based on their morphology is instrumental to the 
 
 ## Resources needed for the model
 
-- [Weights of the network](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/galaxia_all_1.h5)
-
 - [Necessary python libraries](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/requirements.txt)
 
+- [Dataset](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/requirements.txt)
+
+- [Weights of the network](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/galaxia_all_1.h5)
+
+- [Training dataset configuration file](https://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/train_via_region_data.json)
+
+- [Validation dataset configuration file](https://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/val_via_region_data.json)
+
 - [Galaxy zoo catalog](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/zoo2MainSpecz_simpleLabels.csv)
+
+### Configuration steps
+
+- Install all libraries in the requirements.txt file. In their respective versions.
+
+- Download the configuration files of the training and validation dataset. When loading them in the respective folders leave the following name for both files: via_region_data.json
+
+- Unzip the imageset folder of the dataset. Duplicate it and incorporate the respective configuration files.
+
+- Download the weights and leave them in the "models" folder.
+
 
