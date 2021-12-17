@@ -6,7 +6,7 @@ The classification of galaxies based on their morphology is instrumental to the 
 
 - [Necessary python libraries](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/requirements.txt)
 
-- [Dataset](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/requirements.txt)
+- [Dataset](https://datascience-userena.s3.amazonaws.com/zoo2Main.tar.gz)
 
 - [Weights of the network](http://datascience-userena.s3.amazonaws.com/mask_galaxy-morphological_segmentation_of_galaxies/galaxia_all_1.h5)
 
